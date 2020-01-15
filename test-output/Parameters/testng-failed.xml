@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameters]">
+  <parameter name="password" value="Test"/>
+  <parameter name="browser" value="firebox"/>
+  <parameter name="env" value="QA"/>
+  <parameter name="userid" value="Test@rediff.com"/>
+  <parameter name="url" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
+  <test name="parametersTesting">
+    <parameter name="password" value="Test"/>
+    <parameter name="browser" value="firebox"/>
+    <parameter name="env" value="QA"/>
+    <parameter name="userid" value="Test@rediff.com"/>
+    <parameter name="url" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
+    <classes>
+      <class name="com.parameteters.ParametersTest"/>
+    </classes>
+  </test> <!-- parametersTesting -->
+</suite> <!-- Failed suite [Parameters] -->

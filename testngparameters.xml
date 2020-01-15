@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters" >
+<test name="parametersTesting">
+ 
+  <parameter name="env" value="QA" />
+  <parameter name="browser" value="firebox"/>
+  <parameter name="url" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
+  <parameter name="userid" value="Test@rediff.com"/>
+  <parameter name="password" value="Test"/>
+<classes>
+<class name="com.parameteters.ParametersTest"/>
+
+</classes>
+</test>
+</suite>
